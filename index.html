@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo Lab</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <script>
+        window.location.href = "src/pages/login.html";
+    </script>
+</body>
+</html>
+
+<!-- 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+</head>
+<body>
+  <h1>Cadastro de Usuário</h1>
+  <form id="cadastroForm">
+    <input type="text" id="nome" placeholder="Nome" required><br>
+    <input type="email" id="email" placeholder="Email" required><br>
+    <input type="password" id="senha" placeholder="Senha" required><br>
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <script>
+    const form = document.getElementById('cadastroForm');
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const nome = document.getElementById('nome').value;
+      const email = document.getElementById('email').value;
+      const senha = document.getElementById('senha').value;
+
+      // Enviar dados para o backend
+      const response = await window.api.cadastro({ nome, email, senha });
+
+      if (response.sucesso) {
+        alert('Cadastro realizado com sucesso!');
+      } else {
+        alert('Erro ao cadastrar.');
+      }
+    });
+  </script>
+</body>
+</html> -->
